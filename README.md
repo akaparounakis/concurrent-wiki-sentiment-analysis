@@ -31,3 +31,12 @@ Run main.py
 ```
 
 and check for the produced .csv files
+## Choose between Multithread and Multiprocess
+
+Change main.py accordingly
+
+```python
+# Choose 'mt' for a Multithread Approach | Choose 'mp' for a Multiprocess Approach
+if __name__ == '__main__':
+    main(mode='mt')
+```
